@@ -1,0 +1,14 @@
+Seis regras de API REST
+
+1 - Stateless - O servidor deve ter todas as solicitações feitas pelo cliente para as compreender. 
+
+2 - Cliente Servidor - Permitir uma interface regular e separar os clientes dos servidores
+
+3 - Interface Uniforme - Para obter regularidade na aplicação, deve-se existir quatro restrições: Identificação do recurso, Manipulação de recursos utilizando representações,
+mensagens auto-descritivas e Hipermidia como motor do estado da aplicação.
+
+4 - Armazenamento em Cache - Deve ser feito atraves de uma rotulação da resposta do servidor de forma implícita ou explícita 
+
+5 - Sistema de camadas - Para fazer com que a aplicação seja mais estável, limitando os comportamentos do componente em diversas camadas
+
+6 - Código sob demanda - Permite que um código do cliente seja baixado e usado dentro do aplicativo. É uma restrição opcional e menos usada 
